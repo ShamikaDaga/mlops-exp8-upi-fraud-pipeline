@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+mlflow.db
+mlruns/
+# heavy / regenerable training outputs (the slim serving set IS committed)
+artifacts/models/
+artifacts/*.txt
+data/processed/
+# local-only: report build + screenshots
+report/
+*.log

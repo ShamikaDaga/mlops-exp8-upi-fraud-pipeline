@@ -1,0 +1,101 @@
+{
+  "categories": {
+    "User_City": [
+      "Ahmedabad",
+      "Bengaluru",
+      "Bhopal",
+      "Chandigarh",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Indore",
+      "Jaipur",
+      "Kolkata",
+      "Lucknow",
+      "Mumbai",
+      "Nagpur",
+      "Pune",
+      "Surat"
+    ],
+    "Transaction_Type": [
+      "Bill Payment",
+      "EMI",
+      "Merchant",
+      "P2P",
+      "Recharge"
+    ],
+    "Merchant_Category": [
+      "E-Commerce",
+      "Education",
+      "Entertainment",
+      "Food & Dining",
+      "Grocery",
+      "Healthcare",
+      "Insurance",
+      "Other",
+      "Travel",
+      "Utilities"
+    ],
+    "Device_Type": [
+      "Android",
+      "Feature Phone",
+      "Web Browser",
+      "iOS"
+    ],
+    "App_Version": [
+      "v4.8.5",
+      "v4.9.2",
+      "v5.0.1",
+      "v5.1.0",
+      "v5.2.1",
+      "v5.3.0"
+    ]
+  },
+  "ranges": {
+    "Account_Age_Days": {
+      "min": 39.0,
+      "max": 1825.0,
+      "median": 1293.5
+    },
+    "User_Age": {
+      "min": 18.0,
+      "max": 64.0,
+      "median": 37.0
+    },
+    "Transaction_Amount": {
+      "min": 51.87,
+      "max": 93907.32,
+      "median": 3841.31
+    },
+    "Previous_Transaction_Count": {
+      "min": 11.0,
+      "max": 499.0,
+      "median": 350.5
+    },
+    "Avg_Transaction_Value": {
+      "min": 106.92,
+      "max": 14967.01,
+      "median": 7432.31
+    },
+    "Transactions_Last_24h": {
+      "min": 0.0,
+      "max": 24.0,
+      "median": 5.0
+    },
+    "Login_Attempts": {
+      "min": 1.0,
+      "max": 8.0,
+      "median": 1.0
+    },
+    "Wallet_Balance": {
+      "min": 19.18,
+      "max": 49971.56,
+      "median": 25447.65
+    },
+    "Bank_Balance": {
+      "min": 527.37,
+      "max": 499894.81,
+      "median": 253841.5
+    }
+  }
+}

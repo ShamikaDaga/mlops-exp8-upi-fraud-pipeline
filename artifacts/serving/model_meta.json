@@ -1,0 +1,17 @@
+{
+  "best_model": "CatBoost",
+  "training_method": "Class Weights",
+  "optimal_threshold": 0.5099068397089672,
+  "metrics": {
+    "Accuracy": 0.8946428571428572,
+    "Precision": 0.6407766990291263,
+    "Recall": 0.75,
+    "F1-Fraud": 0.6910994764397905,
+    "F1-Macro": 0.8137951634082699,
+    "ROC-AUC": 0.9220435285053931,
+    "PR-AUC": 0.7246619910311837
+  },
+  "fraud_capture_rate": 82.98861223522964,
+  "feature_count": 79,
+  "exported_at": "2026-11-01T18:33:40+00:00"
+}

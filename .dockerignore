@@ -1,0 +1,14 @@
+.git
+.github
+__pycache__
+*.pyc
+mlruns
+mlflow.db
+data
+report
+tests
+artifacts/models
+artifacts/*.txt
+artifacts/*.csv
+k8s
+monitoring
