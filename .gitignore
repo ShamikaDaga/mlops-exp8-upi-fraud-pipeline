@@ -11,3 +11,4 @@ data/processed/
 # local-only: report build + screenshots
 report/
 *.log
+catboost_info/

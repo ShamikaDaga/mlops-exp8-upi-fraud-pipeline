@@ -44,7 +44,8 @@ def create_models(method, scale_pos_weight):
                 verbosity=-1, n_jobs=1),
             "CatBoost": CatBoostClassifier(
                 iterations=300, depth=6, learning_rate=0.05,
-                auto_class_weights="Balanced", random_seed=42, verbose=0, thread_count=1),
+                auto_class_weights="Balanced", random_seed=42, verbose=0, thread_count=1,
+                allow_writing_files=False),
             "AdaBoost": AdaBoostClassifier(
                 n_estimators=300, learning_rate=0.05, random_state=42),
         }
@@ -63,7 +64,7 @@ def create_models(method, scale_pos_weight):
                 colsample_bytree=0.8, random_state=42, verbosity=-1, n_jobs=1),
             "CatBoost": CatBoostClassifier(
                 iterations=300, depth=6, learning_rate=0.05, random_seed=42,
-                verbose=0, thread_count=1),
+                verbose=0, thread_count=1, allow_writing_files=False),
             "AdaBoost": AdaBoostClassifier(
                 n_estimators=300, learning_rate=0.05, random_state=42),
         }
