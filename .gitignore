@@ -12,3 +12,4 @@ data/processed/
 report/
 *.log
 catboost_info/
+*.docx
