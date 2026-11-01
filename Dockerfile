@@ -18,6 +18,7 @@ RUN apt-get update \
 COPY --from=builder /install /usr/local
 WORKDIR /app
 COPY src ./src
+COPY .streamlit ./.streamlit
 COPY artifacts/serving ./artifacts/serving
 COPY artifacts/plots ./artifacts/plots
 
